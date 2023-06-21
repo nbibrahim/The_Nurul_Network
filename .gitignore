@@ -1,4 +1,2 @@
-train_test/train_data_subsampled_20min.csv
-train_test/train_data_20min.csv
-train_test/train_data_subsampled_rollingR.csv
-train_test/train_data_rollingR.csv
+train_test/data/train_data_20min.csv
+train_test/data/train_data_rollingR.csv

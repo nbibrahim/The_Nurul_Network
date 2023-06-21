@@ -1,2 +1,3 @@
 train_test/data/train_data_20min.csv
 train_test/data/train_data_rollingR.csv
+train_test/data/train_data_isolate1.csv

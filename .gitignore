@@ -1,7 +1,1 @@
-train_test/data/train_data_20min.csv
-train_test/data/train_data_rollingR.csv
-train_test/data/train_data_isolate1.csv
-train_test/data/train_data_isolate2.csv
-train_test/data/train_data_autocorr.csv
-train_test/data/train_data_autocorr.csv
-SINN/
+train_test/data/

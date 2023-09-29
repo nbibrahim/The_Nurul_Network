@@ -1,0 +1,28 @@
+
+{"ReduceLROnPlateau": "type", "WandbCallback": "type", "datetime": "module", "keras": "LazyLoader", "np": "module", "os": "module", "pd": "module", "pickle": "module", "plt": "module", "tf": "module", "train_test_split": "function", "wandb": "module"}
+Available devices:
+ [PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU'), PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+Using GPU: /device:GPU:0
+{"ReduceLROnPlateau": "type", "WandbCallback": "type", "datetime": "module", "devices": "list", "gpus": "list", "keras": "LazyLoader", "logical_gpus": "list", "np": "module", "os": "module", "pd": "module", "pickle": "module", "plt": "module", "tf": "module", "train_test_split": "function", "wandb": "module"}
+X_test: (419801, 2)
+X_train: (1679200, 2)
+{"ReduceLROnPlateau": "type", "WandbCallback": "type", "X": "DataFrame", "X_test": "DataFrame", "X_train": "DataFrame", "data": "DataFrame", "datetime": "module", "devices": "list", "gpus": "list", "keras": "LazyLoader", "logical_gpus": "list", "np": "module", "os": "module", "pd": "module", "pickle": "module", "plt": "module", "tf": "module", "train_test_split": "function", "wandb": "module", "y": "Series", "y_test": "Series", "y_train": "Series"}
+{"shape": "(2099001,)", "count": 2099001, "type": "Series"}
+{"shape": "(419801,)", "count": 419801, "type": "Series"}
+{"shape": "(1679200,)", "count": 1679200, "type": "Series"}
+{"ReduceLROnPlateau": "type", "WandbCallback": "type", "X": "DataFrame", "X_test": "DataFrame", "X_train": "DataFrame", "data": "DataFrame", "datetime": "module", "devices": "list", "gpus": "list", "keras": "LazyLoader", "logical_gpus": "list", "model": "Sequential", "np": "module", "os": "module", "pd": "module", "pickle": "module", "plt": "module", "tf": "module", "train_test_split": "function", "wandb": "module", "y": "Series", "y_test": "Series", "y_train": "Series"}
+{"shape": "(2099001,)", "count": 2099001, "type": "Series"}
+{"shape": "(419801,)", "count": 419801, "type": "Series"}
+{"shape": "(1679200,)", "count": 1679200, "type": "Series"}
+[34m[1mwandb[39m[22m: [33mWARNING[39m The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+
+
+
+
+
+
+
+
+10758/52475 [=====>........................] - ETA: 1:07 - loss: 3.9233{"ReduceLROnPlateau": "type", "WandbCallback": "type", "X": "DataFrame", "X_test": "DataFrame", "X_train": "DataFrame", "data": "DataFrame", "datetime": "module", "devices": "list", "gpus": "list", "keras": "LazyLoader", "logical_gpus": "list", "model": "Sequential", "np": "module", "optimizer": "Adam", "os": "module", "pd": "module", "pickle": "module", "plt": "module", "tf": "module", "train_test_split": "function", "wandb": "module", "y": "Series", "y_test": "Series", "y_train": "Series"}
+{"shape": "(2099001,)", "count": 2099001, "type": "Series"}
+{"shape": "(419801,)", "count": 419801, "type": "Series"}

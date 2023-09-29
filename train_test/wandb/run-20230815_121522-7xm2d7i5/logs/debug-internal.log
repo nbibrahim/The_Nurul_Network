@@ -1,0 +1,317 @@
+2023-08-15 12:15:22,753 INFO    StreamThr :567123 [internal.py:wandb_internal():86] W&B internal server running at pid: 567123, started at: 2023-08-15 12:15:22.753078
+2023-08-15 12:15:22,754 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: status
+2023-08-15 12:15:22,755 INFO    WriterThread:567123 [datastore.py:open_for_write():85] open: /home/nurul/TheNurulNetwork/train_test/wandb/run-20230815_121522-7xm2d7i5/run-7xm2d7i5.wandb
+2023-08-15 12:15:22,755 DEBUG   SenderThread:567123 [sender.py:send():379] send: header
+2023-08-15 12:15:22,758 DEBUG   SenderThread:567123 [sender.py:send():379] send: run
+2023-08-15 12:15:23,096 INFO    SenderThread:567123 [dir_watcher.py:__init__():211] watching files in: /home/nurul/TheNurulNetwork/train_test/wandb/run-20230815_121522-7xm2d7i5/files
+2023-08-15 12:15:23,096 INFO    SenderThread:567123 [sender.py:_start_run_threads():1121] run started: 7xm2d7i5 with start time 1692110722.753698
+2023-08-15 12:15:23,096 DEBUG   SenderThread:567123 [sender.py:send_request():406] send_request: summary_record
+2023-08-15 12:15:23,096 INFO    SenderThread:567123 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-15 12:15:23,098 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: check_version
+2023-08-15 12:15:23,098 DEBUG   SenderThread:567123 [sender.py:send_request():406] send_request: check_version
+2023-08-15 12:15:23,272 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: run_start
+2023-08-15 12:15:23,277 DEBUG   HandlerThread:567123 [system_info.py:__init__():31] System info init
+2023-08-15 12:15:23,277 DEBUG   HandlerThread:567123 [system_info.py:__init__():46] System info init done
+2023-08-15 12:15:23,277 INFO    HandlerThread:567123 [system_monitor.py:start():181] Starting system monitor
+2023-08-15 12:15:23,277 INFO    SystemMonitor:567123 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-15 12:15:23,278 INFO    HandlerThread:567123 [system_monitor.py:probe():201] Collecting system info
+2023-08-15 12:15:23,278 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started cpu monitoring
+2023-08-15 12:15:23,279 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started disk monitoring
+2023-08-15 12:15:23,279 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started gpu monitoring
+2023-08-15 12:15:23,279 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started memory monitoring
+2023-08-15 12:15:23,279 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started network monitoring
+2023-08-15 12:15:23,288 DEBUG   HandlerThread:567123 [system_info.py:probe():195] Probing system
+2023-08-15 12:15:23,289 DEBUG   HandlerThread:567123 [system_info.py:_probe_git():180] Probing git
+2023-08-15 12:15:23,292 DEBUG   HandlerThread:567123 [system_info.py:_probe_git():188] Probing git done
+2023-08-15 12:15:23,292 DEBUG   HandlerThread:567123 [system_info.py:probe():240] Probing system done
+2023-08-15 12:15:23,292 DEBUG   HandlerThread:567123 [system_monitor.py:probe():210] {'os': 'Linux-6.2.0-26-generic-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2023-08-15T14:45:23.288511', 'startedAt': '2023-08-15T14:45:22.748864', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/nbibrahim/The_Nurul_Network.git', 'commit': 'daf8c8a14ad0b033cadea12b22d96ed5cc282c95'}, 'email': 'bibrahim@mun.ca', 'root': '/home/nurul/TheNurulNetwork', 'host': 'poseidon', 'username': 'nurul', 'executable': '/home/nurul/venvs/tfgpu/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3354.5330625000006, 'min': 2200.0, 'max': 3800.0}, 'cpu_freq_per_core': [{'current': 3719.953, 'min': 2200.0, 'max': 3800.0}, {'current': 3861.85, 'min': 2200.0, 'max': 3800.0}, {'current': 3127.444, 'min': 2200.0, 'max': 3800.0}, {'current': 3069.877, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 3983.995, 'min': 2200.0, 'max': 3800.0}, {'current': 3751.632, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 3268.694, 'min': 2200.0, 'max': 3800.0}, {'current': 3854.71, 'min': 2200.0, 'max': 3800.0}, {'current': 3828.175, 'min': 2200.0, 'max': 3800.0}, {'current': 3979.439, 'min': 2200.0, 'max': 3800.0}, {'current': 3587.134, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2868.974, 'min': 2200.0, 'max': 3800.0}, {'current': 3470.683, 'min': 2200.0, 'max': 3800.0}], 'disk': {'total': 865.894172668457, 'used': 213.7198944091797}, 'gpu': 'NVIDIA GeForce RTX 4070 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4070 Ti', 'memory_total': 12878610432}], 'memory': {'total': 62.7083740234375}}
+2023-08-15 12:15:23,292 INFO    HandlerThread:567123 [system_monitor.py:probe():211] Finished collecting system info
+2023-08-15 12:15:23,292 INFO    HandlerThread:567123 [system_monitor.py:probe():214] Publishing system info
+2023-08-15 12:15:23,292 DEBUG   HandlerThread:567123 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-08-15 12:15:23,293 DEBUG   HandlerThread:567123 [system_info.py:_save_pip():67] Saving pip packages done
+2023-08-15 12:15:23,293 INFO    HandlerThread:567123 [system_monitor.py:probe():216] Finished publishing system info
+2023-08-15 12:15:23,295 DEBUG   SenderThread:567123 [sender.py:send():379] send: files
+2023-08-15 12:15:23,295 INFO    SenderThread:567123 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-08-15 12:15:23,302 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-15 12:15:23,302 DEBUG   SenderThread:567123 [sender.py:send_request():406] send_request: stop_status
+2023-08-15 12:15:23,342 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: pause
+2023-08-15 12:15:23,342 INFO    HandlerThread:567123 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-08-15 12:15:23,342 INFO    HandlerThread:567123 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-15 12:15:23,343 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-15 12:15:23,343 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-15 12:15:23,343 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-15 12:15:23,343 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined disk monitor
+2023-08-15 12:15:23,343 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-15 12:15:23,392 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined gpu monitor
+2023-08-15 12:15:23,392 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined memory monitor
+2023-08-15 12:15:23,392 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined network monitor
+2023-08-15 12:15:23,392 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: resume
+2023-08-15 12:15:23,393 INFO    HandlerThread:567123 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-08-15 12:15:23,393 INFO    HandlerThread:567123 [system_monitor.py:start():181] Starting system monitor
+2023-08-15 12:15:23,393 INFO    SystemMonitor:567123 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-15 12:15:23,393 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: pause
+2023-08-15 12:15:23,393 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started cpu monitoring
+2023-08-15 12:15:23,393 INFO    HandlerThread:567123 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-08-15 12:15:23,393 INFO    HandlerThread:567123 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-15 12:15:23,393 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started disk monitoring
+2023-08-15 12:15:23,393 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-15 12:15:23,394 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-15 12:15:23,394 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-15 12:15:23,394 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-15 12:15:23,394 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined disk monitor
+2023-08-15 12:15:23,394 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: resume
+2023-08-15 12:15:23,394 INFO    HandlerThread:567123 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-08-15 12:15:23,394 INFO    HandlerThread:567123 [system_monitor.py:start():181] Starting system monitor
+2023-08-15 12:15:23,394 INFO    SystemMonitor:567123 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-15 12:15:23,394 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started cpu monitoring
+2023-08-15 12:15:23,394 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started disk monitoring
+2023-08-15 12:15:23,394 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started gpu monitoring
+2023-08-15 12:15:23,395 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started memory monitoring
+2023-08-15 12:15:23,395 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started network monitoring
+2023-08-15 12:15:23,530 DEBUG   SenderThread:567123 [sender.py:send():379] send: telemetry
+2023-08-15 12:15:23,531 DEBUG   SenderThread:567123 [sender.py:send():379] send: stats
+2023-08-15 12:15:23,531 DEBUG   SenderThread:567123 [sender.py:send():379] send: stats
+2023-08-15 12:15:23,802 INFO    wandb-upload_0:567123 [upload_job.py:push():131] Uploaded file /tmp/tmpzm_0txyqwandb/xni1ow00-wandb-metadata.json
+2023-08-15 12:15:23,966 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: pause
+2023-08-15 12:15:23,966 INFO    HandlerThread:567123 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-08-15 12:15:23,966 INFO    HandlerThread:567123 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-15 12:15:23,966 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-15 12:15:23,966 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-15 12:15:23,966 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-15 12:15:23,966 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined disk monitor
+2023-08-15 12:15:23,966 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-15 12:15:24,005 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined gpu monitor
+2023-08-15 12:15:24,005 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined memory monitor
+2023-08-15 12:15:24,005 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined network monitor
+2023-08-15 12:15:24,006 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: resume
+2023-08-15 12:15:24,006 INFO    HandlerThread:567123 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-08-15 12:15:24,006 DEBUG   SenderThread:567123 [sender.py:send():379] send: stats
+2023-08-15 12:15:24,006 INFO    HandlerThread:567123 [system_monitor.py:start():181] Starting system monitor
+2023-08-15 12:15:24,006 INFO    SystemMonitor:567123 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-15 12:15:24,006 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: pause
+2023-08-15 12:15:24,007 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started cpu monitoring
+2023-08-15 12:15:24,007 INFO    HandlerThread:567123 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-08-15 12:15:24,007 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started disk monitoring
+2023-08-15 12:15:24,007 INFO    HandlerThread:567123 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-15 12:15:24,007 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started gpu monitoring
+2023-08-15 12:15:24,007 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-15 12:15:24,007 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-15 12:15:24,007 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-15 12:15:24,008 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-15 12:15:24,008 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined disk monitor
+2023-08-15 12:15:24,043 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined gpu monitor
+2023-08-15 12:15:24,043 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: resume
+2023-08-15 12:15:24,043 INFO    HandlerThread:567123 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-08-15 12:15:24,043 INFO    HandlerThread:567123 [system_monitor.py:start():181] Starting system monitor
+2023-08-15 12:15:24,043 INFO    SystemMonitor:567123 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-15 12:15:24,043 DEBUG   SenderThread:567123 [sender.py:send():379] send: stats
+2023-08-15 12:15:24,043 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started cpu monitoring
+2023-08-15 12:15:24,044 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started disk monitoring
+2023-08-15 12:15:24,044 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started gpu monitoring
+2023-08-15 12:15:24,044 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started memory monitoring
+2023-08-15 12:15:24,044 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started network monitoring
+2023-08-15 12:15:24,078 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: pause
+2023-08-15 12:15:24,078 INFO    HandlerThread:567123 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-08-15 12:15:24,078 INFO    HandlerThread:567123 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-15 12:15:24,078 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-15 12:15:24,078 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-15 12:15:24,078 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined disk monitor
+2023-08-15 12:15:24,078 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-15 12:15:24,078 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-15 12:15:24,097 INFO    Thread-12 :567123 [dir_watcher.py:_on_file_created():271] file/dir created: /home/nurul/TheNurulNetwork/train_test/wandb/run-20230815_121522-7xm2d7i5/files/output.log
+2023-08-15 12:15:24,097 INFO    Thread-12 :567123 [dir_watcher.py:_on_file_created():271] file/dir created: /home/nurul/TheNurulNetwork/train_test/wandb/run-20230815_121522-7xm2d7i5/files/wandb-metadata.json
+2023-08-15 12:15:24,097 INFO    Thread-12 :567123 [dir_watcher.py:_on_file_created():271] file/dir created: /home/nurul/TheNurulNetwork/train_test/wandb/run-20230815_121522-7xm2d7i5/files/requirements.txt
+2023-08-15 12:15:24,097 INFO    Thread-12 :567123 [dir_watcher.py:_on_file_created():271] file/dir created: /home/nurul/TheNurulNetwork/train_test/wandb/run-20230815_121522-7xm2d7i5/files/wandb-summary.json
+2023-08-15 12:15:24,117 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined gpu monitor
+2023-08-15 12:15:24,117 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined memory monitor
+2023-08-15 12:15:24,117 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined network monitor
+2023-08-15 12:15:24,117 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: resume
+2023-08-15 12:15:24,117 INFO    HandlerThread:567123 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-08-15 12:15:24,117 INFO    HandlerThread:567123 [system_monitor.py:start():181] Starting system monitor
+2023-08-15 12:15:24,117 INFO    SystemMonitor:567123 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-15 12:15:24,117 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: get_summary
+2023-08-15 12:15:24,118 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started cpu monitoring
+2023-08-15 12:15:24,118 DEBUG   SenderThread:567123 [sender.py:send():379] send: stats
+2023-08-15 12:15:24,118 DEBUG   SenderThread:567123 [sender.py:send():379] send: telemetry
+2023-08-15 12:15:24,118 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started disk monitoring
+2023-08-15 12:15:24,118 DEBUG   SenderThread:567123 [sender.py:send():379] send: telemetry
+2023-08-15 12:15:24,119 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started gpu monitoring
+2023-08-15 12:15:24,119 DEBUG   SenderThread:567123 [sender.py:send():379] send: files
+2023-08-15 12:15:24,119 INFO    SenderThread:567123 [sender.py:_save_file():1375] saving file model-best.h5 with policy live
+2023-08-15 12:15:24,119 DEBUG   SenderThread:567123 [sender.py:send():379] send: telemetry
+2023-08-15 12:15:24,119 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started memory monitoring
+2023-08-15 12:15:24,120 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started network monitoring
+2023-08-15 12:15:25,356 DEBUG   SenderThread:567123 [sender.py:send():379] send: files
+2023-08-15 12:15:25,357 INFO    SenderThread:567123 [sender.py:_save_file():1375] saving file media/graph/graph_summary_c9e4d379b5c33e09387a.graph.json with policy now
+2023-08-15 12:15:25,398 DEBUG   SenderThread:567123 [sender.py:send_request():406] send_request: summary_record
+2023-08-15 12:15:25,399 INFO    SenderThread:567123 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-15 12:15:25,646 INFO    wandb-upload_0:567123 [upload_job.py:push():131] Uploaded file /tmp/tmpzm_0txyqwandb/0b99jme4-media/graph/graph_summary_c9e4d379b5c33e09387a.graph.json
+2023-08-15 12:15:26,097 INFO    Thread-12 :567123 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/nurul/TheNurulNetwork/train_test/wandb/run-20230815_121522-7xm2d7i5/files/output.log
+2023-08-15 12:15:26,097 INFO    Thread-12 :567123 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/nurul/TheNurulNetwork/train_test/wandb/run-20230815_121522-7xm2d7i5/files/wandb-summary.json
+2023-08-15 12:15:26,097 INFO    Thread-12 :567123 [dir_watcher.py:_on_file_created():271] file/dir created: /home/nurul/TheNurulNetwork/train_test/wandb/run-20230815_121522-7xm2d7i5/files/media/graph/graph_summary_c9e4d379b5c33e09387a.graph.json
+2023-08-15 12:15:26,097 INFO    Thread-12 :567123 [dir_watcher.py:_on_file_created():271] file/dir created: /home/nurul/TheNurulNetwork/train_test/wandb/run-20230815_121522-7xm2d7i5/files/media
+2023-08-15 12:15:26,098 INFO    Thread-12 :567123 [dir_watcher.py:_on_file_created():271] file/dir created: /home/nurul/TheNurulNetwork/train_test/wandb/run-20230815_121522-7xm2d7i5/files/media/graph
+2023-08-15 12:15:26,523 INFO    wandb-upload_0:567123 [upload_job.py:push():131] Uploaded file /tmp/tmpzm_0txyqwandb/gq0g9zmz-media/graph/graph_summary_c9e4d379b5c33e09387a.graph.json
+2023-08-15 12:15:27,097 INFO    Thread-12 :567123 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/nurul/TheNurulNetwork/train_test/wandb/run-20230815_121522-7xm2d7i5/files/output.log
+2023-08-15 12:15:27,799 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 12:15:28,097 INFO    Thread-12 :567123 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/nurul/TheNurulNetwork/train_test/wandb/run-20230815_121522-7xm2d7i5/files/output.log
+2023-08-15 12:15:30,098 INFO    Thread-12 :567123 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/nurul/TheNurulNetwork/train_test/wandb/run-20230815_121522-7xm2d7i5/files/output.log
+2023-08-15 12:15:32,098 INFO    Thread-12 :567123 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/nurul/TheNurulNetwork/train_test/wandb/run-20230815_121522-7xm2d7i5/files/output.log
+2023-08-15 12:15:32,850 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 12:15:34,099 INFO    Thread-12 :567123 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/nurul/TheNurulNetwork/train_test/wandb/run-20230815_121522-7xm2d7i5/files/output.log
+2023-08-15 12:15:36,099 INFO    Thread-12 :567123 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/nurul/TheNurulNetwork/train_test/wandb/run-20230815_121522-7xm2d7i5/files/output.log
+2023-08-15 12:15:37,886 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 12:15:38,100 INFO    Thread-12 :567123 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/nurul/TheNurulNetwork/train_test/wandb/run-20230815_121522-7xm2d7i5/files/output.log
+2023-08-15 12:15:38,302 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-15 12:15:38,303 DEBUG   SenderThread:567123 [sender.py:send_request():406] send_request: stop_status
+2023-08-15 12:15:40,100 INFO    Thread-12 :567123 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/nurul/TheNurulNetwork/train_test/wandb/run-20230815_121522-7xm2d7i5/files/output.log
+2023-08-15 12:15:42,101 INFO    Thread-12 :567123 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/nurul/TheNurulNetwork/train_test/wandb/run-20230815_121522-7xm2d7i5/files/output.log
+2023-08-15 12:15:42,913 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 12:15:44,101 INFO    Thread-12 :567123 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/nurul/TheNurulNetwork/train_test/wandb/run-20230815_121522-7xm2d7i5/files/output.log
+2023-08-15 12:15:46,102 INFO    Thread-12 :567123 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/nurul/TheNurulNetwork/train_test/wandb/run-20230815_121522-7xm2d7i5/files/output.log
+2023-08-15 12:15:47,944 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 12:15:48,102 INFO    Thread-12 :567123 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/nurul/TheNurulNetwork/train_test/wandb/run-20230815_121522-7xm2d7i5/files/output.log
+2023-08-15 12:15:50,103 INFO    Thread-12 :567123 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/nurul/TheNurulNetwork/train_test/wandb/run-20230815_121522-7xm2d7i5/files/output.log
+2023-08-15 12:15:52,104 INFO    Thread-12 :567123 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/nurul/TheNurulNetwork/train_test/wandb/run-20230815_121522-7xm2d7i5/files/output.log
+2023-08-15 12:15:52,977 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 12:15:53,302 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-15 12:15:53,302 DEBUG   SenderThread:567123 [sender.py:send_request():406] send_request: stop_status
+2023-08-15 12:15:53,802 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: pause
+2023-08-15 12:15:53,802 INFO    HandlerThread:567123 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-08-15 12:15:53,802 INFO    HandlerThread:567123 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-15 12:15:53,802 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-15 12:15:53,802 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-15 12:15:53,802 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-15 12:15:53,802 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined disk monitor
+2023-08-15 12:15:53,802 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-15 12:15:53,852 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined gpu monitor
+2023-08-15 12:15:53,852 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined memory monitor
+2023-08-15 12:15:53,852 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined network monitor
+2023-08-15 12:15:53,852 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: resume
+2023-08-15 12:15:53,852 INFO    HandlerThread:567123 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-08-15 12:15:53,852 INFO    HandlerThread:567123 [system_monitor.py:start():181] Starting system monitor
+2023-08-15 12:15:53,852 INFO    SystemMonitor:567123 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-15 12:15:53,852 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: pause
+2023-08-15 12:15:53,852 DEBUG   SenderThread:567123 [sender.py:send():379] send: stats
+2023-08-15 12:15:53,853 INFO    HandlerThread:567123 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-08-15 12:15:53,853 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started cpu monitoring
+2023-08-15 12:15:53,853 INFO    HandlerThread:567123 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-15 12:15:53,853 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started disk monitoring
+2023-08-15 12:15:53,853 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-15 12:15:53,853 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-15 12:15:53,854 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-15 12:15:53,854 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-15 12:15:53,854 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined disk monitor
+2023-08-15 12:15:53,854 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: resume
+2023-08-15 12:15:53,854 INFO    HandlerThread:567123 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-08-15 12:15:53,854 INFO    HandlerThread:567123 [system_monitor.py:start():181] Starting system monitor
+2023-08-15 12:15:53,854 INFO    SystemMonitor:567123 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-15 12:15:53,854 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: pause
+2023-08-15 12:15:53,854 INFO    HandlerThread:567123 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-08-15 12:15:53,854 INFO    HandlerThread:567123 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-15 12:15:53,854 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started cpu monitoring
+2023-08-15 12:15:53,854 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-15 12:15:53,854 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-15 12:15:53,854 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-15 12:15:53,855 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-15 12:15:53,862 DEBUG   SenderThread:567123 [sender.py:send():379] send: stats
+2023-08-15 12:15:53,862 DEBUG   SenderThread:567123 [sender.py:send():379] send: stats
+2023-08-15 12:15:53,894 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: resume
+2023-08-15 12:15:53,894 INFO    HandlerThread:567123 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-08-15 12:15:53,894 INFO    HandlerThread:567123 [system_monitor.py:start():181] Starting system monitor
+2023-08-15 12:15:53,894 INFO    SystemMonitor:567123 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-15 12:15:53,894 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started cpu monitoring
+2023-08-15 12:15:53,894 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started disk monitoring
+2023-08-15 12:15:53,894 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started gpu monitoring
+2023-08-15 12:15:53,895 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started memory monitoring
+2023-08-15 12:15:53,895 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started network monitoring
+2023-08-15 12:15:53,895 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: pause
+2023-08-15 12:15:53,896 INFO    HandlerThread:567123 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-08-15 12:15:53,896 INFO    HandlerThread:567123 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-15 12:15:53,896 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-15 12:15:53,896 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-15 12:15:53,896 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-15 12:15:53,896 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined disk monitor
+2023-08-15 12:15:53,896 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-15 12:15:53,929 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined gpu monitor
+2023-08-15 12:15:53,930 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined memory monitor
+2023-08-15 12:15:53,930 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined network monitor
+2023-08-15 12:15:53,930 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: resume
+2023-08-15 12:15:53,930 INFO    HandlerThread:567123 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-08-15 12:15:53,930 INFO    HandlerThread:567123 [system_monitor.py:start():181] Starting system monitor
+2023-08-15 12:15:53,930 INFO    SystemMonitor:567123 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-15 12:15:53,930 DEBUG   SenderThread:567123 [sender.py:send():379] send: stats
+2023-08-15 12:15:53,930 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: pause
+2023-08-15 12:15:53,930 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started cpu monitoring
+2023-08-15 12:15:53,931 INFO    HandlerThread:567123 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-08-15 12:15:53,931 INFO    HandlerThread:567123 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-15 12:15:53,931 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started disk monitoring
+2023-08-15 12:15:53,931 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-15 12:15:53,931 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-15 12:15:53,931 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-15 12:15:53,931 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-15 12:15:53,931 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined disk monitor
+2023-08-15 12:15:53,931 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: resume
+2023-08-15 12:15:53,931 INFO    HandlerThread:567123 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-08-15 12:15:53,931 INFO    HandlerThread:567123 [system_monitor.py:start():181] Starting system monitor
+2023-08-15 12:15:53,931 INFO    SystemMonitor:567123 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-15 12:15:53,932 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: pause
+2023-08-15 12:15:53,932 INFO    HandlerThread:567123 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-08-15 12:15:53,932 INFO    HandlerThread:567123 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-15 12:15:53,932 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started cpu monitoring
+2023-08-15 12:15:53,932 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-15 12:15:53,932 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-15 12:15:53,932 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-15 12:15:53,932 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-15 12:15:53,932 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: resume
+2023-08-15 12:15:53,932 INFO    HandlerThread:567123 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-08-15 12:15:53,932 INFO    HandlerThread:567123 [system_monitor.py:start():181] Starting system monitor
+2023-08-15 12:15:53,933 INFO    SystemMonitor:567123 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-15 12:15:53,933 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: pause
+2023-08-15 12:15:53,934 INFO    HandlerThread:567123 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-08-15 12:15:53,934 INFO    HandlerThread:567123 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-15 12:15:53,934 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started cpu monitoring
+2023-08-15 12:15:53,934 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-15 12:15:53,934 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-15 12:15:53,934 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-15 12:15:53,934 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-15 12:15:53,934 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: resume
+2023-08-15 12:15:53,934 INFO    HandlerThread:567123 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-08-15 12:15:53,934 INFO    HandlerThread:567123 [system_monitor.py:start():181] Starting system monitor
+2023-08-15 12:15:53,935 INFO    SystemMonitor:567123 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-15 12:15:53,935 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: pause
+2023-08-15 12:15:53,935 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started cpu monitoring
+2023-08-15 12:15:53,935 INFO    HandlerThread:567123 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-08-15 12:15:53,935 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started disk monitoring
+2023-08-15 12:15:53,935 INFO    HandlerThread:567123 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-15 12:15:53,936 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started gpu monitoring
+2023-08-15 12:15:53,936 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-15 12:15:53,936 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-15 12:15:53,936 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined disk monitor
+2023-08-15 12:15:53,936 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-15 12:15:53,936 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-15 12:15:53,982 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined gpu monitor
+2023-08-15 12:15:53,982 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: resume
+2023-08-15 12:15:53,983 INFO    HandlerThread:567123 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-08-15 12:15:53,983 INFO    HandlerThread:567123 [system_monitor.py:start():181] Starting system monitor
+2023-08-15 12:15:53,983 INFO    SystemMonitor:567123 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-15 12:15:53,983 DEBUG   SenderThread:567123 [sender.py:send():379] send: stats
+2023-08-15 12:15:53,983 DEBUG   HandlerThread:567123 [handler.py:handle_request():144] handle_request: pause
+2023-08-15 12:15:53,983 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started cpu monitoring
+2023-08-15 12:15:53,983 DEBUG   SenderThread:567123 [sender.py:send():379] send: stats
+2023-08-15 12:15:53,983 INFO    HandlerThread:567123 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-08-15 12:15:53,984 DEBUG   SenderThread:567123 [sender.py:send():379] send: stats
+2023-08-15 12:15:53,984 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started disk monitoring
+2023-08-15 12:15:53,984 INFO    HandlerThread:567123 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-15 12:15:53,984 DEBUG   SenderThread:567123 [sender.py:send():379] send: stats
+2023-08-15 12:15:53,984 INFO    SystemMonitor:567123 [interfaces.py:start():190] Started gpu monitoring
+2023-08-15 12:15:53,984 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-15 12:15:53,984 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-15 12:15:53,984 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined disk monitor
+2023-08-15 12:15:53,984 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-15 12:15:53,984 DEBUG   SystemMonitor:567123 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-15 12:15:54,011 INFO    HandlerThread:567123 [interfaces.py:finish():202] Joined gpu monitor
+2023-08-15 12:15:54,011 DEBUG   SenderThread:567123 [sender.py:send():379] send: stats
+2023-08-15 12:15:54,104 INFO    Thread-12 :567123 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/nurul/TheNurulNetwork/train_test/wandb/run-20230815_121522-7xm2d7i5/files/output.log
+2023-08-15 12:15:54,104 INFO    Thread-12 :567123 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/nurul/TheNurulNetwork/train_test/wandb/run-20230815_121522-7xm2d7i5/files/config.yaml
+2023-08-15 12:15:56,105 INFO    Thread-12 :567123 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/nurul/TheNurulNetwork/train_test/wandb/run-20230815_121522-7xm2d7i5/files/output.log

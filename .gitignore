@@ -1,7 +1,2 @@
 train_test/data/
-train_test/plots_saved/
-train_test/saved_models/
-train_test/wandb/
-train_test/previous/
-simple_ODE_tests/Animations/
-pinn_ode_tutorial-master/
+

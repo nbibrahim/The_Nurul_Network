@@ -1,0 +1,124 @@
+{
+    "os": "Linux-6.2.0-26-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2023-08-15T14:43:38.595174",
+    "startedAt": "2023-08-15T14:43:37.998765",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/nbibrahim/The_Nurul_Network.git",
+        "commit": "daf8c8a14ad0b033cadea12b22d96ed5cc282c95"
+    },
+    "email": "bibrahim@mun.ca",
+    "root": "/home/nurul/TheNurulNetwork",
+    "host": "poseidon",
+    "username": "nurul",
+    "executable": "/home/nurul/venvs/tfgpu/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2943.2634375,
+        "min": 2200.0,
+        "max": 3800.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2910.566,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3697.936,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2800.0,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2986.25,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3269.399,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3731.366,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3164.367,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3111.372,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3599.912,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2882.728,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3088.509,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3049.81,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3800.0
+        }
+    ],
+    "disk": {
+        "total": 865.894172668457,
+        "used": 213.71686935424805
+    },
+    "gpu": "NVIDIA GeForce RTX 4070 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4070 Ti",
+            "memory_total": 12878610432
+        }
+    ],
+    "memory": {
+        "total": 62.7083740234375
+    }
+}
